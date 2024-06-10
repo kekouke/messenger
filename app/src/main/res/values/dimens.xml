@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="emoji_view_height_30dp">30dp</dimen>
+    <dimen name="emoji_view_horizontal_padding">9dp</dimen>
+    <dimen name="emoji_view_vertical_padding">5dp</dimen>
+    <dimen name="emoji_view_corner_radius">10dp</dimen>
+    <dimen name="bg_message_corner_radius">18dp</dimen>
+    <dimen name="flexbox_horizontal_spacing">10dp</dimen>
+    <dimen name="flexbox_vertical_spacing">7dp</dimen>
+    <dimen name="chat_item_horizontal_offset">10dp</dimen>
+    <dimen name="user_item_horizontal_offset">17dp</dimen>
+    <dimen name="avatar_small_37dp">37dp</dimen>
+    <dimen name="avatar_medium_64dp">64dp</dimen>
+    <dimen name="avatar_large_185dp">185dp</dimen>
+    <dimen name="text_14sp">14sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_18sp">18sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+    <dimen name="text_22sp">22sp</dimen>
+    <dimen name="text_24sp">24sp</dimen>
+    <dimen name="text_32sp">32sp</dimen>
+    <dimen name="bottom_sheet_peek_height">300dp</dimen>
+</resources>

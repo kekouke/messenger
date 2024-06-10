@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">tfs_spring_2024</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_message">Message</string>
+    <string name="hint_write_message">Write a message…</string>
+    <string name="attach_content">Attach content</string>
+    <string name="send_message">Send a message</string>
+    <string name="channels">Channels</string>
+    <string name="people">People</string>
+    <string name="profile">Profile</string>
+    <string name="description_back_button">Back button</string>
+    <string name="users">Users…</string>
+    <string name="search">Search…</string>
+    <string name="active">active</string>
+    <string name="topic_name_placeholder">Topic: #%s</string>
+    <string name="error_load_messages">Failed to load new messages</string>
+    <string name="error_send_message">Failed to send message</string>
+    <string name="error_change_emoji">Failed to add reaction</string>
+    <string name="error_event_queue">Failed to update data. Try reopening the screen</string>
+    <string name="error_load_streams">Failed to load streams</string>
+    <string name="error_load_topics">Failed to load topics</string>
+    <string name="error_update_users">Failed to update users</string>
+    <string name="error_search">Search failed</string>
+    <string name="error_stream_already_exists">Error: Stream already exists</string>
+    <string name="error_channel_name_cannot_be_empty">Error: Channel name cannot be empty</string>
+    <string name="error_occurred">An error has occurred</string>
+    <string name="failed_to_load_data">Failed to load data :(</string>
+    <string name="retry">Retry</string>
+    <string name="oops">Oops…</string>
+    <string name="new_channel">New channel</string>
+    <string name="enter_channel_name">Enter channel name</string>
+    <string name="content_description_add_new_channel">Button to add new channel</string>
+    <string-array name="channels_tab_titles">
+        <item>Subscribed</item>
+        <item>All Streams</item>
+    </string-array>
+</resources>

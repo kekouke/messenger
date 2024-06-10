@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="window_background">#121212</color>
+    <color name="status_bar_background">#121212</color>
+    <color name="background_element_primary">#1C1C1C</color>
+    <color name="text_username">#2A9D8F</color>
+    <color name="background_chat_element_primary">#2A9D8F</color>
+    <color name="text_hint">#CCCCCC</color>
+    <color name="background_bottom_sheet_decoration">#555555</color>
+    <color name="background_emoji_selected">#3A3A3A</color>
+    <color name="background_date">#070707</color>
+    <color name="text_date">#999999</color>
+    <color name="background_edit_text">#282828</color>
+    <color name="background_nav_element">#1E1E1E</color>
+    <color name="background_chat_topic">#1E1E1E</color>
+    <color name="background_profile_button">#1B1B1B</color>
+    <color name="online_status">#4AB54D</color>
+    <color name="profile_user_action">#BCBCBC</color>
+    <color name="background_tab_indicator">#219653</color>
+    <color name="background_shimmer">#C2C2C2</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">
+        @color/background_edit_text
+    </color>
+</resources>

@@ -1,0 +1,103 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+}
+
+android {
+    namespace 'com.kekouke.tfsspring'
+    compileSdk libs.versions.compileSdk.get().toInteger()
+
+    defaultConfig {
+        applicationId "com.kekouke.tfsspring"
+        minSdk libs.versions.minSdk.get().toInteger()
+        targetSdk libs.versions.targetSdk.get().toInteger()
+        versionCode libs.versions.version.code.get().toInteger()
+        versionName libs.versions.version.name.get()
+
+        testInstrumentationRunner = "com.kekouke.tfsspring.CustomTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    testOptions {
+        unitTests.returnDefaultValues = true
+        animationsDisabled = true
+    }
+    sourceSets {
+        main {
+            assets {
+                srcDirs 'src\\main\\assets', 'src\\androidTest\\assets'
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation libs.androidx.ktx.core
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.viewpager2
+    implementation libs.androidx.constraintLayout
+    implementation libs.androidx.lifecycle.runtime.ktx
+    implementation libs.material
+    implementation libs.cicerone
+    implementation libs.shimmer
+    implementation libs.gson
+    implementation libs.glide
+
+    implementation libs.retrofit.retrofit
+    implementation libs.retrofit.converter.gson
+
+    implementation libs.androidx.room.runtime
+    annotationProcessor libs.androidx.room.compiler
+    kapt libs.androidx.room.compiler
+
+    implementation libs.kotlinx.coroutines.android
+    implementation libs.androidx.room.ktx
+
+    implementation libs.kotea.core
+    implementation libs.kotea.android
+
+    implementation libs.dagger.core
+    kapt libs.dagger.compiler
+    kaptAndroidTest(libs.dagger.core)
+    kaptAndroidTest(libs.dagger.compiler)
+
+
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.junit
+
+    // MockK
+    testImplementation libs.mockk.android
+    testImplementation libs.mockk.agent
+
+    androidTestImplementation libs.kaspresso
+
+    debugImplementation libs.androidx.fragment.testing
+
+    androidTestImplementation libs.hamcrest
+
+    testImplementation libs.kotlinx.coroutines.test
+
+    // Wiremock
+    debugImplementation libs.androidx.test.core
+    androidTestImplementation libs.httpclient.android
+    androidTestImplementation(libs.wiremock) {
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+    }
+}

@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/background_bottom_sheet_decoration" />
+    <corners android:radius="50dp" />
+</shape>

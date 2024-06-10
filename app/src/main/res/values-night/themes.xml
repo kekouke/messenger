@@ -1,0 +1,11 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tfs_spring_2024" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="android:statusBarColor">@color/status_bar_background</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="bottomSheetDialogTheme">@style/ModalBottomSheetDialog</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+</resources>

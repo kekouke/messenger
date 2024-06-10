@@ -1,0 +1,30 @@
+{
+	"result": "success",
+	"msg": "",
+	"messages": [
+		{
+			"id": 433720073,
+			"sender_id": 709343,
+			"content": "Grinch",
+			"recipient_id": 1252628,
+			"timestamp": 1713348636,
+			"client": "okhttp",
+			"subject": "(без темы)",
+			"topic_links": [],
+			"is_me_message": false,
+			"reactions": [],
+			"submessages": [],
+			"flags": [
+				"read"
+			],
+			"sender_full_name": "Николай Cучёв",
+			"sender_email": "user709343@tinkoff-android-spring-2024.zulipchat.com",
+			"sender_realm_str": "tinkoff-android-spring-2024",
+			"display_recipient": "general",
+			"type": "stream",
+			"stream_id": 432915,
+			"avatar_url": "https://secure.gravatar.com/avatar/9e71f36c8eddb1e0761ea73d64b35803?d=identicon&version=1",
+			"content_type": "text/x-markdown"
+		}
+	]
+}
